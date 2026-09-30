@@ -1,6 +1,6 @@
 :root {
     --fondo: white;
-    --superficie: black;
+    --superficie: white;
     --texto:black;
     --primario: purple;
     --éxito: green;
@@ -9,7 +9,7 @@
 } 
 [data-tema="claro"]{
     --fondo: white;
-    --superficie: black;
+    --superficie: white;
     --texto:black;
     --primario: purple;
     --éxito: green;
@@ -18,7 +18,7 @@
 }
 [data-tema="oscuro"]{
     --fondo: black;
-    --superficie: white;
+    --superficie: black;
     --texto:white;
     --primario: purple;
     --éxito: green;

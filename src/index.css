@@ -1,0 +1,33 @@
+:root {
+    --fondo: white;
+    --superficie: black;
+    --texto:black;
+    --primario: purple;
+    --éxito: green;
+    --alerta:red;
+    --peligro:orange;
+} 
+[data-tema="claro"]{
+    --fondo: white;
+    --superficie: black;
+    --texto:black;
+    --primario: purple;
+    --éxito: green;
+    --alerta:red;
+    --peligro:orange;
+}
+[data-tema="oscuro"]{
+    --fondo: black;
+    --superficie: white;
+    --texto:white;
+    --primario: purple;
+    --éxito: green;
+    --alerta:red;
+    --peligro:orange;
+}
+body {
+    background-color: var(--fondo);
+    color: var(--texto);
+    transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+}

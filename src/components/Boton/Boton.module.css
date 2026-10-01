@@ -1,0 +1,25 @@
+.botonBase {
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.primario {
+  background-color: var(--primario);
+  color: white;
+}
+
+.secundario {
+  background-color: transparent;
+  border-color: var(--primario);
+  color: var(--texto);
+}
+
+.activo {
+  transform: scale(0.98);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
